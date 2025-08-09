@@ -154,22 +154,34 @@
             <p class="text-center max-w-4xl mx-auto mb-8">Being a Dolphins fan is an accessible, vibrant community, especially for those right here in Florida.</p>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <div class="text-center bg-custom-green p-6 rounded-lg text-white">
-                    <span class="text-6xl">🚗</span>
+                    <img src="https://www.enterprise.com/content/dam/ecom/locations/us/fl/road-trip-miami-ocean-drive-724x407.png" alt="Road trip to Miami" class="w-full h-32 object-cover rounded-lg mb-4">
                     <p class="text-5xl font-black mt-2">~3.5 Hours</p>
                     <p class="text-xl font-bold mt-2">Drive from Orlando</p>
                     <p class="mt-2">You're just a road trip away from experiencing the electric atmosphere at Hard Rock Stadium live!</p>
                 </div>
                 <div class="text-center">
+                    <img src="https://images2.minutemediacdn.com/image/upload/c_fill,w_1200,ar_4:3,f_auto,q_auto,g_auto/shape/cover/sport/https-3A-2F-2Fphinphanatic-com-2Fwp-content-2Fuploads-2Fgetty-images-2F2017-2F07-2F1359873222-850x560-cf4120e66dd2995b14ebe31b11e7429640c86ae9b3ca9a68455cf1e0e23d44fc.jpg" alt="Miami Dolphins Fans" class="w-full h-32 object-cover rounded-lg mb-4">
                     <h3 class="text-2xl font-bold mb-4 text-custom-orange">A Dedicated Fanbase</h3>
-                    <div class="flex justify-center items-center space-x-4 text-4xl">
-                        <span>👫</span><span>👫</span><span>👫</span><span>👫</span><span class="opacity-50">🧍</span>
-                    </div>
                     <p class="mt-4 text-gray-600">Dolphins fans are among the most committed in the league, creating a community built on lasting connections.</p>
                 </div>
             </div>
         </div>
-        
+
         <div id="slide-8" class="slide p-8">
+            <h2 class="text-3xl font-bold text-custom-aqua mb-4 text-center">The Hard Rock Stadium Experience</h2>
+            <p class="text-center max-w-4xl mx-auto mb-8">Forget baking in the Florida sun. The game day experience in Miami is world-class, and that includes keeping you cool.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div class="text-center">
+                    <img src="https://static.clubs.nfl.com/image/private/f_auto/dolphins/b5du3rvncavtca0qkj6l" alt="Hard Rock Stadium with shade canopy" class="w-full h-auto object-cover rounded-lg shadow-lg">
+                </div>
+                <div class="text-center bg-gray-50 p-6 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-4 text-custom-orange">Stay Cool in the Shade</h3>
+                    <p class="mt-4 text-gray-700">Thanks to a massive, state-of-the-art canopy, <strong>92% of the seats</strong> at Hard Rock Stadium are protected from the sun. You can enjoy a 1 PM kickoff in September without getting a sunburn. It's a game-changer.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="slide-9" class="slide p-8">
             <h2 class="text-3xl font-bold text-custom-aqua mb-4 text-center">Getting to the Game: Orlando to Miami</h2>
             <p class="text-center max-w-4xl mx-auto mb-8">Forget long flights and expensive hotels. Getting to Hard Rock Stadium from Orlando is a breeze, with options for every type of fan.</p>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
@@ -186,7 +198,7 @@
             </div>
         </div>
 
-        <div id="slide-9" class="slide p-8 flex flex-col items-center justify-center text-center h-[80vh] bg-custom-aqua text-white">
+        <div id="slide-10" class="slide p-8 flex flex-col items-center justify-center text-center h-[80vh] bg-custom-aqua text-white">
             <h2 class="text-5xl font-black">The Choice is Clear.</h2>
             <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Miami_Dolphins_logo.svg/1200px-Miami_Dolphins_logo.svg.png" alt="Miami Dolphins Logo" class="w-48 h-auto mt-8">
             <p class="text-4xl font-bold mt-4">Fins Up!</p>
@@ -222,7 +234,7 @@
             dots.forEach(dot => dot.classList.replace('bg-custom-aqua', 'bg-gray-300'));
 
             slides[currentSlide - 1].style.display = 'block';
-            if (currentSlide === 1 || currentSlide === 9) {
+            if (currentSlide === 1 || currentSlide === 10) {
                  slides[currentSlide - 1].style.display = 'flex';
             }
             dots[currentSlide - 1].classList.replace('bg-gray-300', 'bg-custom-aqua');
