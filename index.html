@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why You Should Be a Miami Dolphins Fan: Slideshow</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .slide {
+            display: none;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .bg-custom-aqua { background-color: #4D908E; }
+        .text-custom-orange { color: #F3722C; }
+        .bg-custom-yellow { background-color: #F9C74F; }
+        .text-custom-red { color: #F94144; }
+        .bg-custom-green { background-color: #90BE6D; }
+        .border-custom-orange { border-color: #F8961E; }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800 flex flex-col items-center justify-center min-h-screen p-4">
+
+    <div id="slideshow-container" class="w-full max-w-5xl bg-white rounded-lg shadow-2xl overflow-hidden">
+        <div id="slide-1" class="slide p-8 flex flex-col items-center justify-center text-center h-[80vh]">
+            <header class="text-white bg-custom-aqua p-8 rounded-lg shadow-lg">
+                <h1 class="text-4xl md:text-6xl font-black uppercase tracking-wider">Why Bleed Aqua & Orange?</h1>
+                <p class="mt-4 text-lg md:text-xl max-w-3xl mx-auto">An inside look at why the Miami Dolphins should be your favorite team. (Hint: It's not just the weather.)</p>
+            </header>
+        </div>
+
+        <div id="slide-2" class="slide p-8 flex flex-col items-center justify-center text-center h-[80vh]">
+            <h2 class="text-3xl font-bold text-custom-aqua mb-4">A Legacy of Perfection</h2>
+            <p class="max-w-4xl mx-auto mb-8">The Dolphins stand alone in NFL history, achieving a feat no other team has ever matched. This legacy of greatness is the foundation of a proud franchise.</p>
+            <div class="text-center">
+                <p class="text-9xl font-black text-custom-orange">17-0</p>
+                <p class="text-2xl font-bold mt-2">The 1972 Perfect Season</p>
+                <p class="mt-2 text-gray-600 max-w-md mx-auto">The only team in NFL history to complete an entire season, including the Super Bowl, undefeated and untied. We're looking at you, '07 Patriots.</p>
+                <div class="mt-8 bg-custom-yellow p-4 rounded-lg">
+                     <p class="text-xl font-bold text-gray-800">They followed this up with another championship in 1973, cementing a dynasty with 5 total Super Bowl appearances.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="slide-3" class="slide p-8">
+            <h2 class="text-3xl font-bold text-custom-aqua mb-4 text-center">Titans of Miami: Legendary Players</h2>
+            <p class="text-center max-w-4xl mx-auto mb-8">The Dolphins' history is rich with Hall of Fame talent who didn't just play the game—they defined their positions.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-gray-50 p-6 rounded-lg text-center shadow">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Dan_Marino_HOF_bust.jpg/800px-Dan_Marino_HOF_bust.jpg" alt="Dan Marino" class="w-24 h-24 rounded-full mx-auto object-cover shadow-lg mb-4">
+                    <h3 class="text-2xl font-bold text-custom-orange mt-2">Dan Marino</h3>
+                    <ul class="text-left mt-4 space-y-2 text-gray-700">
+                        <li><strong>Record-Shattering QB:</strong> Threw for a then-record 5,084 yards and 48 TDs in 1984.</li>
+                        <li><strong>Career Powerhouse:</strong> Retired with over 61,000 passing yards and 420 touchdowns.</li>
+                        <li><strong>The Standard:</strong> Redefined the quarterback position with his lightning-quick release and cannon arm.</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg text-center shadow">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Larry_Csonka_1973.png/800px-Larry_Csonka_1973.png" alt="Larry Csonka" class="w-24 h-24 rounded-full mx-auto object-cover shadow-lg mb-4">
+                    <h3 class="text-2xl font-bold text-custom-green mt-2">Larry Csonka</h3>
+                    <ul class="text-left mt-4 space-y-2 text-gray-700">
+                        <li><strong>The Perfect Engine:</strong> A bruising fullback and the heart of the '72 Perfect Season offense.</li>
+                        <li><strong>Super Bowl MVP:</strong> Dominated Super Bowl VIII with 145 yards and 2 TDs.</li>
+                        <li><strong>Mr. Consistent:</strong> Rushed for over 1,000 yards in three consecutive seasons, all leading to Super Bowl appearances.</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg text-center shadow">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Jason_Taylor_-_Miami_Dolphins.jpg/800px-Jason_Taylor_-_Miami_Dolphins.jpg" alt="Jason Taylor" class="w-24 h-24 rounded-full mx-auto object-cover shadow-lg mb-4">
+                    <h3 class="text-2xl font-bold text-custom-aqua mt-2">Jason Taylor</h3>
+                    <ul class="text-left mt-4 space-y-2 text-gray-700">
+                        <li><strong>Defensive Player of the Year:</strong> Won the award in 2006 with a stunning all-around season.</li>
+                        <li><strong>Sack King:</strong> The Dolphins' all-time leader with 131 sacks.</li>
+                        <li><strong>Touchdown Machine:</strong> Scored 9 defensive touchdowns in his career, an NFL record for a defensive lineman.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div id="slide-4" class="slide p-8">
+            <h2 class="text-3xl font-bold text-custom-aqua mb-4 text-center">The "So Miami" Experience</h2>
+            <p class="text-center max-w-4xl mx-auto mb-8">Being a Dolphins fan is about more than just football. It's a lifestyle, complete with a killer fight song and a Hollywood pedigree.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div class="text-center">
+                    <p class="text-6xl">🔗</p>
+                    <a href="https://www.youtube.com/watch?v=mx6qOodbWLk&ab_channel=MiamiDolphins" target="_blank" rel="noopener noreferrer" class="text-2xl font-bold mt-2 text-blue-600 hover:underline">"Miami Dolphins, Miami Dolphins, Miami Dolphins Number One!"</a>
+                    <p class="mt-2 text-gray-600">The official fight song of the Miami Dolphins. Simple, direct, and scientifically proven to get stuck in your head for days. Click to listen!</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-6xl">🎬</p>
+                    <p class="text-2xl font-bold mt-2">Ace Ventura: Pet Detective</p>
+                    <p class="mt-2 text-gray-600">The greatest football movie of all time? It's certainly the only one to feature a stolen dolphin mascot and a cameo by Dan Marino. Laces out, Dan!</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="slide-5" class="slide p-8">
+            <h2 class="text-3xl font-bold text-custom-aqua mb-4 text-center">The Modern Offensive Powerhouse (2023)</h2>
+            <p class="text-center max-w-4xl mx-auto mb-8">The current Dolphins feature one of the most explosive and high-scoring offenses in the NFL, ranking #1 in yards and #2 in points per game in 2023.</p>
+            <div>
+                <h3 class="text-2xl font-bold mb-6 text-center text-custom-orange">Key Offensive Leaders</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="bg-gray-50 p-6 rounded-lg border-b-4 border-custom-orange text-center">
+                        <p class="text-lg font-semibold">Tua Tagovailoa</p>
+                        <p class="text-5xl font-bold text-custom-aqua mt-2">4,624</p>
+                        <p class="text-md text-gray-600">Passing Yards</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg border-b-4 border-custom-orange text-center">
+                        <p class="text-lg font-semibold">Tyreek Hill</p>
+                        <p class="text-5xl font-bold text-custom-aqua mt-2">1,799</p>
+                        <p class="text-md text-gray-600">Receiving Yards</p>
+                    </div>
+                     <div class="bg-gray-50 p-6 rounded-lg border-b-4 border-custom-orange text-center">
+                        <p class="text-lg font-semibold">Single Game High</p>
+                        <p class="text-5xl font-bold text-custom-aqua mt-2">70</p>
+                        <p class="text-md text-gray-600">Points Scored</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="slide-6" class="slide p-8">
+            <h2 class="text-3xl font-bold text-custom-aqua mb-4 text-center">Welcome to the Track Meet</h2>
+            <p class="text-center max-w-4xl mx-auto mb-8">Why is the offense so exciting? It's not just the points; it's the *way* they score them. This isn't your grandpa's football—it's a high-speed spectacle.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-gray-50 p-6 rounded-lg text-center shadow">
+                    <p class="text-5xl">⚡️</p>
+                    <h3 class="text-xl font-bold text-custom-orange mt-2">Unmatched Speed</h3>
+                    <p class="text-left mt-4 text-gray-700">With players like Tyreek Hill and De'Von Achane, the Dolphins have the fastest collection of talent in the league. Any play can turn into a long touchdown from anywhere on the field.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg text-center shadow">
+                    <p class="text-5xl">🧠</p>
+                    <h3 class="text-xl font-bold text-custom-green mt-2">Creative Play-Calling</h3>
+                    <p class="text-left mt-4 text-gray-700">Head Coach Mike McDaniel is an offensive guru. His use of pre-snap motion, misdirection, and unique formations leaves defenses confused and creates wide-open throwing lanes.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg text-center shadow">
+                    <p class="text-5xl">💣</p>
+                    <h3 class="text-xl font-bold text-custom-aqua mt-2">Explosive Plays</h3>
+                    <p class="text-left mt-4 text-gray-700">The Dolphins don't just move the chains; they hunt for big plays. Their scheme is designed to create mismatches and take deep shots, making for thrilling, edge-of-your-seat football.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="slide-7" class="slide p-8">
+            <h2 class="text-3xl font-bold text-custom-aqua mb-4 text-center">Your Florida Team: A Fan's Paradise</h2>
+            <p class="text-center max-w-4xl mx-auto mb-8">Being a Dolphins fan is an accessible, vibrant community, especially for those right here in Florida.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div class="text-center bg-custom-green p-6 rounded-lg text-white">
+                    <span class="text-6xl">🚗</span>
+                    <p class="text-5xl font-black mt-2">~3.5 Hours</p>
+                    <p class="text-xl font-bold mt-2">Drive from Orlando</p>
+                    <p class="mt-2">You're just a road trip away from experiencing the electric atmosphere at Hard Rock Stadium live!</p>
+                </div>
+                <div class="text-center">
+                    <h3 class="text-2xl font-bold mb-4 text-custom-orange">A Dedicated Fanbase</h3>
+                    <div class="flex justify-center items-center space-x-4 text-4xl">
+                        <span>👫</span><span>👫</span><span>👫</span><span>👫</span><span class="opacity-50">🧍</span>
+                    </div>
+                    <p class="mt-4 text-gray-600">Dolphins fans are among the most committed in the league, creating a community built on lasting connections.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="slide-8" class="slide p-8">
+            <h2 class="text-3xl font-bold text-custom-aqua mb-4 text-center">Getting to the Game: Orlando to Miami</h2>
+            <p class="text-center max-w-4xl mx-auto mb-8">Forget long flights and expensive hotels. Getting to Hard Rock Stadium from Orlando is a breeze, with options for every type of fan.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+                <div class="bg-gray-50 p-6 rounded-lg text-center shadow h-full">
+                    <p class="text-6xl">🚗</p>
+                    <h3 class="text-2xl font-bold text-custom-orange mt-2">The Classic Road Trip</h3>
+                    <p class="mt-4 text-gray-700">Load up the car, grab your friends, and hit the Florida Turnpike. In about <strong>3.5 hours</strong>, you'll go from your driveway to the tailgate. It's a classic game day tradition.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg text-center shadow h-full flex flex-col">
+                    <img src="https://www.gannett-cdn.com/media/2018/05/10/Brevard/Brevard/636615569581924658-051018-brightline-select-2.JPG?width=660&height=372&fit=crop&format=pjpg&auto=webp" alt="Inside of a Brightline train" class="w-full h-32 object-cover rounded-lg mb-4">
+                    <h3 class="text-2xl font-bold text-custom-green mt-2">Travel in Style on the Brightline</h3>
+                    <p class="mt-4 text-gray-700 flex-grow">Want to avoid traffic and relax? Take the <strong>Brightline</strong> train from Orlando to the Aventura station. From there, the dedicated <strong>Hard Rock Stadium Connect</strong> shuttle will take you right to the game. It's fast, comfortable, and hassle-free.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="slide-9" class="slide p-8 flex flex-col items-center justify-center text-center h-[80vh] bg-custom-aqua text-white">
+            <h2 class="text-5xl font-black">The Choice is Clear.</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Miami_Dolphins_logo.svg/1200px-Miami_Dolphins_logo.svg.png" alt="Miami Dolphins Logo" class="w-48 h-auto mt-8">
+            <p class="text-4xl font-bold mt-4">Fins Up!</p>
+        </div>
+    </div>
+
+    <div class="mt-8 flex justify-between w-full max-w-5xl">
+        <button id="prevBtn" class="bg-custom-orange text-white font-bold py-3 px-6 rounded-lg shadow-md hover:bg-orange-600 transition-colors">Previous</button>
+        <div id="slide-indicator" class="flex items-center space-x-2"></div>
+        <button id="nextBtn" class="bg-custom-orange text-white font-bold py-3 px-6 rounded-lg shadow-md hover:bg-orange-600 transition-colors">Next</button>
+    </div>
+
+    <script>
+        let currentSlide = 1;
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+        const indicatorContainer = document.getElementById('slide-indicator');
+
+        for (let i = 0; i < totalSlides; i++) {
+            const dot = document.createElement('span');
+            dot.classList.add('h-3', 'w-3', 'rounded-full', 'bg-gray-300', 'cursor-pointer', 'transition-colors');
+            dot.addEventListener('click', () => showSlide(i + 1));
+            indicatorContainer.appendChild(dot);
+        }
+        const dots = Array.from(indicatorContainer.children);
+
+        function showSlide(n) {
+            currentSlide = n;
+            if (n > totalSlides) { currentSlide = 1; }
+            if (n < 1) { currentSlide = totalSlides; }
+            
+            slides.forEach(slide => slide.style.display = 'none');
+            dots.forEach(dot => dot.classList.replace('bg-custom-aqua', 'bg-gray-300'));
+
+            slides[currentSlide - 1].style.display = 'block';
+            if (currentSlide === 1 || currentSlide === 9) {
+                 slides[currentSlide - 1].style.display = 'flex';
+            }
+            dots[currentSlide - 1].classList.replace('bg-gray-300', 'bg-custom-aqua');
+        }
+
+        function changeSlide(n) {
+            showSlide(currentSlide + n);
+        }
+
+        document.getElementById('prevBtn').addEventListener('click', () => changeSlide(-1));
+        document.getElementById('nextBtn').addEventListener('click', () => changeSlide(1));
+
+        showSlide(currentSlide);
+    </script>
+</body>
+</html>
